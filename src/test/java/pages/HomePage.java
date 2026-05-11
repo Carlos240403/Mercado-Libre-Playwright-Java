@@ -18,10 +18,14 @@ public class HomePage extends BasePage {
 
         page.waitForLoadState();
 
-        Locator searchBox = page.locator("//*[@id=\"cb1-edit\"]");
+        Locator searchBox = page.locator("#cb1-edit");
 
         searchBox.waitFor();
+        searchBox.click(); // ✅ asegura foco
         searchBox.fill(product);
         searchBox.press("Enter");
+
+        page.waitForLoadState();
     }
+
 }

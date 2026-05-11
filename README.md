@@ -45,7 +45,7 @@ mvn test -Dheadless=false
 
 GitHub Actions pipeline (passing run):
 
-👉 PASTE YOUR LINK HERE 👈
+https://github.com/Carlos240403/Mercado-Libre-Playwright-Java
 
 ---
 
