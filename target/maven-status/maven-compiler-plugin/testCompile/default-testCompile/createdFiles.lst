@@ -1,6 +1,0 @@
-pages\BasePage.class
-steps\MercadoLibreSteps.class
-pages\HomePage.class
-pages\SearchResultsPage.class
-hooks\Hooks.class
-runner\TestRunner.class
